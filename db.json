@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "e902",
+      "category": "novo",
+      "description": "novo",
+      "name": "novo produton",
+      "price": "40",
+      "stock": "100",
+      "createdAt": "2024-06-13T11:10:01.388Z",
+      "userId": "862f"
+    }
+  ],
+  "users": [
+    {
+      "id": "862f",
+      "email": "example@example.com",
+      "name": "example",
+      "password": "123456"
+    }
+  ]
+}

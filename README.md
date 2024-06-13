@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+## ProdManage
+  - ProdManage é um aplicativo desenvolvido com Expo, React Native e React Navigation para simplificar o gerenciamento de produtos. 
+  - Este README fornece instruções sobre como configurar e executar o projeto, além de uma visão geral das funcionalidades implementadas.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Funcionalidades
+  - Login e Cadastro: Permite que usuários façam login ou criem uma nova conta.
+  - Gerenciamento de Produtos: Adicione, edite e exclua produtos.
+  - Visualização de Produtos: Visualize todos os produtos em uma lista organizada.
 
-## Get started
+# Observação 
+  - Este projeto utiliza o JSON Server como simulação de banco de dados para os dados do aplicativo.
 
-1. Install dependencies
+## Capturas de Tela
 
-   ```bash
-   npm install
-   ```
+![Tela de Login](./screenshots/login.png)/(./screenshots/login.png)
+![Tela de Login exemplo](./screenshots/login2.png)
 
-2. Start the app
+![Tela de Cadastro](./screenshots/cadastro.png)
 
-   ```bash
-    npx expo start
-   ```
+![Tela Home](./screenshots/home.png)
+![Tela Home sem produtos](./screenshots/home2.png)
 
-In the output, you'll find options to open the app in a
+![Tela de cadastrar produto](./screenshots/cadastrar-produto.png)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Tela de listar produtos](./screenshots/lista.png)
+![Tela de listar produtos vazia](./screenshots/lista-vazia.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![Tela de detalhes do produto](./screenshots/detalhes.png)
 
-## Get a fresh project
+![Tela de editar ou remover produto](./screenshots/editar.png)
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+## Pré-requisitos
+  - Node.js (v14 ou superior)
+  - npm (v6 ou superior) ou yarn
+  - Expo Go
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Configuração do Projeto
 
-## Learn more
+1. - Clonar o Repositório
+  ```bash
+  git clone https://github.com/seu-usuario/prodmanage.git
+  ```
+2. - Instalar Dependências
+  ```bash
+  npm install
+  ```
+3. - Inicie o projeto com Expo
+  ```bash
+  npm start
+  # ou 
+  npx expo start
+  ```
+# Abra o aplicativo Expo Go no seu dispositivo móvel ou um emulador(android studio)
+  - use as opções fornecidas no terminal para abrir o aplicativo Expo Go no seu dispositivo.
 
-To learn more about developing your project with Expo, look at the following resources:
+# Executar Testes
+  ```bash
+    npm test
+   
+  ```
+# Estrutura do Projeto
+  ```plaintext`
+  src/
+  ├── components/   # Componentes reutilizáveis
+  ├── libs/         #  bibliotecas ou utilitários específicos
+  ├── screens/      # Telas do aplicativo
+  ├── routes/       # Configuração de navegação
+  ├── stores/       # Armazenamento de estado
+  └── utils/        # Funções utilitárias
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# Contribuição
+  -Sinta-se à vontade para contribuir com o projeto. Você pode abrir issues ou enviar pull requests. 
+  Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Licença  
+  - Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
