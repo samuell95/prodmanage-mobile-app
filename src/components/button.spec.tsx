@@ -25,7 +25,7 @@ describe('Component: Button', () => {
     expect(loading).toBeNull()
   })
 
-  test('deve ser renderizado sem carregar se a propriedade IsLoading for verdadeira', () => {
+  test('deve ser renderizado com carregamento se a propriedade IsLoading for verdadeira', () => {
     render(<Button isLoading />)
     const loading = screen.getByTestId('loading-component')
     expect(loading).toBeTruthy()
