@@ -34,7 +34,7 @@ describe('Stores: useUserStore', () => {
     const { result } = renderHook(() => useUserStore())
 
     await act(async () => {
-      await result.current.signIn('sam@example.com', 'numb88908402')
+      await result.current.signIn('sam@example.com', '123456')
     })
 
     expect(result.current.userInfo).toEqual(mockResponseUser)
